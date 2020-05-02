@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreteria</title>
+</head>
+<body>
+    <style type="text/css">
+        body{
+            padding: 5%;
+            background-color: #eee;
+        }
+        section {
+          width: 100%;
+        }
+        a {
+          text-decoration: none;
+          color:blue ;
+          font-size: 20px;
+        }
+        a:hover {
+          color:cyan;
+        }
+        article {
+          padding: 10px;
+           width: 25%;
+        }
+        li {
+          padding: 20px;
+        }
+
+        label input{
+            
+            float: left;
+        }
+       .articulos{
+            display: inline-block;
+
+        }
+        .izquierda {
+            width: 30%;
+            float: left;
+            
+        }
+
+        .derecha {
+            width: 65%;
+            float: right;
+            background-color: white;
+                      
+        }
+        .menuderecha{
+            float: right;
+        }
+        header{
+            background-color: #fcee21;
+        }
+       
+
+      </style>
+    <header>
+        <h1>Ferreteria</h1>
+        <nav class="menuderecha">
+          <a href="#"> Home</a>
+          <a href="#"> Tienda</a>
+          <a href="#"> Contacto</a>
+        </nav>
+    
+        <iframe src="https://giphy.com/embed/xlpw1wn1ro6RnMkZWK" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chameleon-camaleon-ferreteria-xlpw1wn1ro6RnMkZWK"></a></p>
+    </header>
+        <section class=izquierda>
+          <h2>Buscar</h2>
+          <article>
+            <h3>Por Marca</h3>
+            <label> <input type="radio" name="year" id="" /> Stanley </label>
+            <label> <input type="radio" name="year" id="" /> Black+ Decker </label>
+            <label> <input type="radio" name="year" id="" /> DeWALT </label>
+            <label> <input type="radio" name="year" id="" /> Hamilton </label>
+          </article>
+          <article>
+            <h3>Por Nombre:</h3>
+            <input type="text" placeholder="Busqueda..." id="" />
+          </article>
+          <article>
+            <h3>Por Categorias:</h3>
+            <select name="" id="categorias">
+              <option value="0">Herramientas y Construccion</option>
+              <option value="1">Agro</option>
+              <option value="2">Hogar, Muebles y Jardin</option>
+              <option value="3">Electronica, Audio y Video</option>                            
+            </select>
+          </article>
+        </section>
+        <section class=derecha>
+          <h2>Agregadas Recientemente:</h2>
+          <article class="articulos">
+            <h3>Amoladora Taladro Dewalt + Combo Soldadora Inverter 250 Amp</h3>
+            <a href="">
+              <img src="./img/amoladora taladro dewalt + combo soldadora.jpg" />
+            </a>
+            <ul>
+              <li>Año: 2020</li>
+              <li>Cateogoria:Herramientas Eléctricas</li>
+              <li>Envio:Gratis</li>
+            </ul>
+          </article>
+          <article class="articulos">
+            <h3>Set De Herramientas Encastre 1/4 46 Piezas Ford</h3>
+            <a href="">
+              <img src="./img/set de herramientas encastre.jpg" />
+            </a>
+            <ul>
+              <li>Año: 2020</li>
+              <li>Cateogoria:Herramientas Manuales</li>
+              <li>Envio:200</li>
+            </ul>
+          </article>
+          <article class="articulos">
+            <h3>Juego De 18 Destornilladores Ford</h3>
+            <a href="">
+              <img src="./img/juego de destornillador.jpg" />
+            </a>
+            <ul>
+              <li>Año: 2020</li>
+              <li>Cateogoria:Herramientas Manuales</li>
+              <li>Envio: 200</li>
+            </ul>
+          </article>
+        </section>
+      
+</body>
+</html>
