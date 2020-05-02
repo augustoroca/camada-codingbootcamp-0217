@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* 
+{margin-left: auto;
+margin-right: auto;
+}
+
+
+input{
+    display: block;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    
+}
+
+.login {
+border: 2px solid gainsboro;
+width: 300px;
+text-align: center;
+
+}
+
+button {
+
+    display: block;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#btnEntrar{
+    background-color:rgb(13, 13, 82);
+    color: white;
+}
+
+img{
+       height: 80px;
+       width: 80px;
+       padding: 10px;
+}
+
+#pass{
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: 'Mukta', sans-serif;
+}
